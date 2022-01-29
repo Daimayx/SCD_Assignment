@@ -1,8 +1,8 @@
-public class Factorial {
+public class factprogram {
 
     public static void main(String[] args) {
 
-        int num = 10;
+        int num = 60;
         long factorial = 1;
         for(int i = 1; i <= num; ++i)
         {
