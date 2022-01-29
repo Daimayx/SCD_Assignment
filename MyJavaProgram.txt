@@ -4,10 +4,10 @@ public class Factorial {
 
         int num = 10;
         long factorial = 1;
-        for(int i = 1; i <= num; ++i)
+        for(int j = 1; j <= num; ++j)
         {
-            // factorial = factorial * i;
-            factorial *= i;
+            // factorial = factorial * j;
+            factorial *= j;
         }
         System.out.printf("Factorial of %d = %d", num, factorial);
     }
